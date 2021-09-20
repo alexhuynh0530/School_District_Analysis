@@ -10,7 +10,7 @@ This is an analysis of student funding and student standardized test scores from
 
 ### How is the district summary affected?
 
-The distict summary changed slightly after the ninth graders from Thomas High School had their grades replaced with NaNs. Most of the averages and percent passing decreased slightly. There are 461 ninth graders from Thomas High School which represents 1.18% of the total number of students from all the schools (total number of students is 39,170). This explains why the change to the district summary was minimal.
+The distict summary changed slightly after the ninth graders from Thomas High School had their grades replaced with NaNs. Most of the averages and percent passing decreased slightly.
 
 - Average Math Score decreased from 79.0 to 78.9
 - Average Reading Score was unchanged at 81.9
@@ -146,11 +146,15 @@ Since Thomas High School's School Type is "Charter" it falls under the Charter T
 ![size_summary_df_after.png](https://github.com/alexhuynh0530/School_District_Analysis/blob/main/Resources/size_summary_df_after.png)
 
 
-
-
-#### Conclusion
-
-
 ## Summary
 
+In summary, changing the reading and math scores to NaNs for the ninth graders at Thomas High School made slight changes to the school district anlaysis. 
 
+Changes included:
+- Average Math Score decreased from 79.0 to 78.9
+- Average Reading Score was unchanged at 81.9
+- % Passing Math decreased from 75 to 74.8
+- % Passing Reading decreased from 86 to 85.7
+- % Overall Passing decreased from 65 to 64.9
+
+There are 461 ninth graders from Thomas High School which represents 1.18% of the total number of students from all the schools (39,170). This explains why the change to the district summary was minimal.
